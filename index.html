@@ -1,0 +1,389 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Host Two Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!--<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>-->
+        <link rel="stylesheet" href="assets/css/fonticons.css">
+        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/aiplanner.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+        <link rel="stylesheet" href="assets/css/aiplanner.css">
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target="#navmenu">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+        <!--Home page style-->
+
+        <header id="main_menu" class="header navbar-fixed-top">
+            <div class="main_menu_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="nave_menu">
+                            <nav class="navbar navbar-default" id="#navmenu">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="#">
+                                            <img src="assets/images/logo.png"/ style="height: 100%">
+                                        </a>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="#home">Home</a></li>
+                                            <li><a href="#abouts">About</a></li>
+                                            <li><a href="#feature">Features</a></li>
+                                            <li><a href="#clients">Clients</a></li>
+                                            <li><a href="#pricing">Domain</a></li>
+                                            <li><a href="#contact">Hosting</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </nav>
+                        </div>	
+                    </div>
+
+                </div>
+
+            </div>
+        </header> <!--End of header -->
+
+
+
+        <section id="home" class="home">
+            <div class="home_overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_slider_area">
+                            <div class="slider">
+                                <div class="single_slider">
+                                    <h3>aiPlanner</h3>
+                                    <p>trip planner for all places and any time</p>
+                                    <div class="single_slider_img_icon">
+                                        <img src="assets/images/ii1.png" alt="" />
+                                    </div>
+                                    <div class="col-sm-6 col-sm-offset-3">
+                                        <div class="home_searce_domain_area">
+                                            <div class="main_home_searce_domain_content">
+                                                <input id="place" type="text" placeholder="Place to travel" / style="margin-right: 15px">
+                                                <input id="search" type="submit" value="Plan" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of Banner Section -->
+
+
+
+        <section id="abouts">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="" style="background-color: #202242;">
+                        <div class="col-md-12 text-center">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div>
+                                        <h3 id="placeTitle" style="font-weight: bold; margin-top: 50px;"># Place:</h3>
+                                        <h3 id="placeAddr" style="font-weight: bold;"># Address:</h3>
+                                    </div> 
+                                    <div class="single_webhost_left_img">
+                                        <img id="loading" src="assets/images/loading2.gif" alt=""  style="height: 150px;"/>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="panel-group" id="panel-parent">
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                 <a class="panel-title" data-toggle="collapse" data-parent="#panel-parent" href="#panel-element-Restaurants">Restaurants</a>
+                                            </div>
+                                            <div id="panel-element-Restaurants" class="panel-collapse collapse in">
+                                                <div class="panel-body">
+
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Name</th>
+                                                            <th>Rating</th>
+                                                            <th>Address</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="restaurant">
+                                                    </tbody>
+                                                </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                 <a class="panel-title" data-toggle="collapse" data-parent="#panel-parent" href="#panel-element-Parks">Parks</a>
+                                            </div>
+                                            <div id="panel-element-Parks" class="panel-collapse collapse">
+                                                <div class="panel-body">
+
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Name</th>
+                                                            <th>Rating</th>
+                                                            <th>Address</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="park">
+                                                    </tbody>
+                                                </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                 <a class="panel-title" data-toggle="collapse" data-parent="#panel-parent" href="#panel-element-BookStores">Book Stores</a>
+                                            </div>
+                                            <div id="panel-element-BookStores" class="panel-collapse collapse">
+                                                <div class="panel-body">
+
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Name</th>
+                                                            <th>Rating</th>
+                                                            <th>Address</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="book_store">
+                                                    </tbody>
+                                                </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                 <a class="panel-title" data-toggle="collapse" data-parent="#panel-parent" href="#panel-element-museum">Museum</a>
+                                            </div>
+                                            <div id="panel-element-museum" class="panel-collapse collapse">
+                                                <div class="panel-body">
+
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Name</th>
+                                                            <th>Rating</th>
+                                                            <th>Address</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="museum">
+                                                    </tbody>
+                                                </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="feature" class="feature">
+            <div class="feature_overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_feature_content_area">
+                            <div class="col-sm-12">
+                                <div class="heading_title text-center">
+                                    <h2>Our Feature</h2>
+                                </div>
+                            </div>
+
+                            <div class="main_feature_content text-center">
+                                <div class="col-sm-4">
+                                    <div class="single_feature">
+                                        <div class="single_feature_img">
+                                            <img src="assets/images/ft2.png" alt="" />
+                                        </div>
+                                        <div class="separator"></div>
+                                        <h3>Cloud Data</h3>
+                                        <p>Get the spots and traffic informations from the google maps cloud server by the gmaps API.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="single_feature">
+                                        <div class="single_feature_img">
+                                            <img src="assets/images/ft3.png" alt="" />
+                                        </div>
+                                        <div class="separator"></div>
+                                        <h3>Schedule Generation</h3>
+                                        <p>Use the cloud data to do a complex search for the maximun user satisfaction.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="single_feature">
+                                        <div class="single_feature_img">
+                                            <img src="assets/images/ft4.png" alt="" />
+                                        </div>
+                                        <div class="separator"></div>
+                                        <h3>Final Selection</h3>
+                                        <p>Show the generated schedule to the users. Users can either accpet the schedule or do some modification.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="clients" class="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="main_clients_area">
+                        <div class="main_clients_bottom_content">
+                            <br><br>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="client_left_content">
+                                        <h2>Our Teams</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="single_client_bottom">
+                                        <p>“ B04902112
+                                            資工三
+                                            張凱捷”</p>
+                                        <a href=""></a>
+                                        <div class="singel_client_bottom_img">
+                                            <img src="assets/images/c1.gif" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="single_client_bottom">
+                                        <p>“ B04902039
+                                            資工三
+                                            羅際禎 ”</p>
+                                        <a href=""></a>
+                                        <div class="singel_client_bottom_img">
+                                            <img src="assets/images/c2.gif" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="single_client_bottom">
+                                        <p>“ B05902108
+                                            資工二
+                                            施承志”</p>
+                                        <a href=""></a>
+                                        <div class="singel_client_bottom_img">
+                                            <img src="assets/images/c3.gif" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="main_footer text-center">
+                        <p>Made by NTU 2017 AI team 24. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer><!-- End of footer section -->
+
+        <!-- STRAT SCROLL TO TOP -->
+
+        <div class="scrollup">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/isotope.min.js"></script>
+
+        <script src="assets/js/jquery.easypiechart.min.js"></script>
+        <script src="assets/js/jquery.mixitup.min.js"></script>
+        <script src="assets/js/jquery.easing.1.3.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAy4-q9b3nQa1iuJtYjAsQxDL1I22HM0_A&libraries=places"></script>
+        <script src="assets/js/gmaps.min.js"></script>
+        <script src="assets/js/aiplanner.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
