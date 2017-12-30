@@ -100,11 +100,47 @@
                                     <div class="single_slider_img_icon">
                                         <img src="assets/images/ii1.png" alt="" />
                                     </div>
-                                    <div class="col-sm-6 col-sm-offset-3">
+                                    <div class="col-sm-7 col-sm-offset-3">
                                         <div class="home_searce_domain_area">
                                             <div class="main_home_searce_domain_content">
-                                                <input id="place" type="text" placeholder="Place to travel" / style="margin-right: 15px">
-                                                <input id="search" type="submit" value="Plan" />
+                                                <input id="place" type="text" placeholder="Place to travel" style="margin-right: 15px" />
+                                                <select id="start_time" class="form-control" style="margin-right: 15px">
+                                                    <option>6:00</option>
+                                                    <option>7:00</option>
+                                                    <option>8:00</option>
+                                                    <option>9:00</option>
+                                                    <option>10:00</option>
+                                                    <option>11:00</option>
+                                                    <option>12:00</option>
+                                                    <option>13:00</option>
+                                                    <option>14:00</option>
+                                                    <option>15:00</option>
+                                                    <option>16:00</option>
+                                                    <option>17:00</option>
+                                                    <option>18:00</option>
+                                                    <option>19:00</option>
+                                                    <option>21:00</option>
+                                                    <option>22:00</option>
+                                                </select>
+                                                <select id="end_time" class="form-control" style="margin-right: 15px">
+                                                    <option>6:00</option>
+                                                    <option>7:00</option>
+                                                    <option>8:00</option>
+                                                    <option>9:00</option>
+                                                    <option>10:00</option>
+                                                    <option>11:00</option>
+                                                    <option>12:00</option>
+                                                    <option>13:00</option>
+                                                    <option>14:00</option>
+                                                    <option>15:00</option>
+                                                    <option>16:00</option>
+                                                    <option>17:00</option>
+                                                    <option>18:00</option>
+                                                    <option>19:00</option>
+                                                    <option>21:00</option>
+                                                    <option>22:00</option>
+                                                </select>
+                                                <input class="search" type="submit" value="Plan" />
                                             </div>
                                         </div>
                                     </div>
@@ -235,6 +271,7 @@
                                                     </tbody>
                                                 </table>
 
+
                                                 </div>
                                             </div>
                                         </div>
@@ -242,13 +279,51 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
+
+
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="panel-group" id="panel-parent-2">
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                 <a class="panel-title" data-toggle="collapse" data-parent="#panel-parent-2" href="#panel-element-Schedule">Schedule</a>
+                                                 <span id="rating" style="margin-left:25px">(Rating: )</span>
+                                            </div>
+                                            <div id="panel-element-Schedule" class="panel-collapse collapse in">
+                                                <div class="panel-body">
+
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Time</th>
+                                                            <th>Place</th>
+                                                            <th>Rating</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="schedule">
+                                                    </tbody>
+                                                </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button id="reset" type="button" class="search btn btn-primary" style="width: 100%">Search Again</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                     </div>
+
                 </div>
             </div>
         </section>
-
 
 
         <section id="feature" class="feature">
